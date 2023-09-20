@@ -21,6 +21,9 @@ PS1="%{$fg[yellow]%}%c %{$reset_color%}$ "
 alias 'm'='make'
 alias 'v'='vi -p'
 alias 'g'='git'
+alias 'vg'='vim +G +only'
 
 # opam configuration
 test -r /Users/Clement/.opam/opam-init/init.zsh && . /Users/Clement/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+export PATH=$PATH:~/zig
